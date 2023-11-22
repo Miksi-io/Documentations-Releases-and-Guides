@@ -1,8 +1,9 @@
 # Documentations, Releases, and Guides
 
-## Welcome to the Miksi.io Resource Hub!
+## Welcome to Miksi's Resource Hub!
 
-Our repository is dedicated to empowering users with advanced AI tools for business intelligence. Here, you'll find comprehensive resources to help you harness the full potential of Miksi.io's capabilities.
+At Miksi, we are helping companies to enable their customers to get patterns, trends, forecasts, and charts. All that without ever exposing their data to us.
+In this documentation, you'll find comprehensive resources to help you harness the full potential of our solution. All locally, all magic.
 
 ### Documentation
 - **AI Agent Setup:** Step-by-step guide to configure and deploy our AI agents.
