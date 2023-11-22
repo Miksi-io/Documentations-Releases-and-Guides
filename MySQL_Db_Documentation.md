@@ -1,10 +1,10 @@
-# Welcome to Miksi AI
+# Welcome to Miksi
 
 ## Introduction
-Welcome to **Miksi AI**. At Miksii, we utilize state-of-the-art AI to revolutionize Business Intelligence. We offer you the next generation of conversational BI tools, bringing your data to life and making insights more accessible than ever.
+Welcome to **Miksi**. At Miksi, we utilize state-of-the-art AI to revolutionize Business Intelligence. We offer you the next generation of conversational BI tools, bringing your data to life and making insights more accessible than ever, without having to expose any of you or your customer data to us.
 
-## Miksi SQL Agent
-The Miksi SQL Agent is a powerful tool designed to connect seamlessly with your SQL databases. It's part of the broader Miksi AI ecosystem, crafted to enhance your experience with business intelligence.
+## Miksi Agent
+The Miksi Agent is a powerful tool designed to connect seamlessly with your SQL databases. It's part of the broader Miksi AI ecosystem, crafted to enhance your experience with business intelligence.
 
 ### Important Information
 Our agent interacts with your database by executing queries within **sandboxed environments**. While it's highly tuned not to execute queries that modify the database, we highly recommend that you do not run against the main production database and provide user accounts with no rights to modify the database. 
