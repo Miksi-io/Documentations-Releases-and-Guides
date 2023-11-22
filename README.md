@@ -2,7 +2,8 @@
 
 ## Welcome to Miksi's Resource Hub!
 
-At Miksi, we are helping companies to enable their customers to get patterns, trends, forecasts, and charts. All that without ever exposing their data to us.
+At Miksi, we are helping companies enable their customers to chat about their data with ease. From finding patterns, trends, getting forecasts, plotting charts, and much more. All that without ever exposing their data to us.
+
 In this documentation, you'll find comprehensive resources to help you harness the full potential of our solution. All locally, all magic.
 
 ### Documentation
