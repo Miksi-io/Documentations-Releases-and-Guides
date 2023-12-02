@@ -40,7 +40,7 @@ from miksisdk.base import DatabaseConnector
 Create a new instance or object and provide host, user, database name, and password, 
 
 ```python
-onnector = DatabaseConnector(db_user=db_user, db_password=db_password,
+connector = DatabaseConnector(db_user=db_user, db_password=db_password,
                               db_host=db_host, db_name=db_name)
 ```
 You can check the status of your connection by;
