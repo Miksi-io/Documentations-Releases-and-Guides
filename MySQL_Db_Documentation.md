@@ -69,7 +69,7 @@ The DB instance must be assigned to a global variable named **'db'**
 
 
 ```python
-# Simplified DB Connection Function
+# Sample DB Connection Function
 def get_db():
     connector = DatabaseConnector(db_user=db_user, db_password=db_password, 
                                   db_host=db_host, db_name=db_name)
@@ -82,14 +82,17 @@ db = get_db()
 #### Note: The DB instance should be assigned to a global variable named 'db', as it's required by the agent.
 
 # Defining a Large Language Model (LLM)
-## Define your own LLM:
-You can define your own llm 
+The LLM is already configured for you, you just need to create a new instance of the default llm,pass miksi_api_key, and assign it to a global variable  
+
 ```python
-llm = ChatOpenAI(model="model_name", openai_api_key=openai_api_key, 
-                 temperature=0, streaming=True)
+miksi_api_key = 'your miksi api key'
+ ```
+Get your key at [MiksiAPI](https://miksiapi-miksi.pythonanywhere.com)
+
+```python
+model = MiksiAPIHandler(miksi_api_key=miksi_api_key)
+llm = model.get_default_llm(miksi_api_key=miksi_api_key)
 ```
-# Default Model:
- If not specified, the agent uses a predefined model.
 
 # Creating the Agent
 The agent is responsible for processing your queries related to the database and giving you back the response
