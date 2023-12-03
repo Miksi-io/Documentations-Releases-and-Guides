@@ -90,6 +90,8 @@ miksi_api_key = 'your miksi api key'
 Get your key at [MiksiAPI](https://miksiapi-miksi.pythonanywhere.com)
 
 ```python
+from miksisdk.api import MiksiAPIHandler
+
 model = MiksiAPIHandler(miksi_api_key=miksi_api_key)
 llm = model.get_default_llm(miksi_api_key=miksi_api_key)
 ```
