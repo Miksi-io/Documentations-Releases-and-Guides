@@ -108,7 +108,7 @@ Provide llm and db variables from above as arguements
 from miksisdk.agent import AgentInitializer
 
 # Instantiate the AgentInitializer:
-agent_initializer = AgentInitializer(llm, db)
+agent_initializer = AgentInitializer(llm, db, miksi_api_key=miksi_api_key)
 ```
 
 # Charts and graphs
@@ -121,9 +121,9 @@ Optionally, you can specify a path for image/chart storage:
 
 ```python
 path = 'your path here'
-agent_initializer = AgentInitializer(llm, db, path)
+agent_initializer = AgentInitializer(llm, db,miksi_api_key,miksi_api_key, path)
 ```
-
+Agent wont be initialized unless a valid/operational miksi_api_key is provided
 
 # Create the agent:
 create the agent instance by calling the create_agent method of AgentInitializer
